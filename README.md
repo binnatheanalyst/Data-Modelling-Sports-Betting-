@@ -5,10 +5,10 @@
 ## 1. Thought process
 [Sports Betting Data Build.xlsx](https://github.com/user-attachments/files/23343003/Sports.Betting.Data.Build.xlsx)
 
-It all began with a simple curiosity, ***“How do betting companies come up with their odds ?”***  
+It began with a simple curiosity, ***“How do betting companies come up with their odds ?”***  
 
 I’d look at match predictions and wonder, ***“What magic formula makes one team 2.1 odds and another 3.6 ?”***  
-That curiosity turned into a full-blown data exploration rabbit hole.  
+That curiosity turned into a full-blown data exploration rabbit hole about 6 months ago. 
 
 <img width="963" height="737" alt="image" src="https://github.com/user-attachments/assets/9fcc8359-405c-4abd-8896-f6515282920b" />
 
@@ -20,16 +20,24 @@ That curiosity turned into a full-blown data exploration rabbit hole.
 
 
 
-The same statistical backbone used in sports analytics to model events like ***goals, shots, or even wins*** - that’s when the it became clearer.
+It appears "poission distribution" is used in sports analytics to model events like ***goals, shots, or even wins*** - that’s when it became clearer.
 
-At first, I didn't see this as something I'd translate into Data until I discovered Poisson Distribution.
-Most of those basic math terms we used to joke about back in secondary school actually have real-life value, we just were never taught how powerful their possibilities could be.
+My couriosity sparked, and then I decided to translate. 
+I’ve come to realize that many of those basic math concepts we used to joke about back in secondary school actually have real-world value, we just were never shown how powerful they could truly be.
 
-#### I started with getting current EPL and Laliga Standings
+#### I started with getting current EPL and Laliga Standings 
+It required a lot of data cleaning to ensure everything appeared properly, as I treated it as my “database” for efficiently calculating goal possibilities.
+
+From there, I carefully
 - _Rebuild the logic behind betting odds from scratch_
 - _Use Excel formulars_
 
+
 <img width="1440" height="736" alt="image" src="https://github.com/user-attachments/assets/6dd84302-32ee-45f9-8d66-5e1eabbdbf7a" />
+
+Football is a game defined by goals — winning is almost impossible without scoring one.
+I realized I needed an existing/ongoing league table to predict goals possibilities and averages - I first built the framework using random numbers and waited for Premier League Matchday 10 to test the model. This helped me see, psychologically, that my deep dive into the data could actually connect to real-world predictions.
+
 
 
 #### The result ?  
@@ -48,7 +56,7 @@ Most of those basic math terms we used to joke about back in secondary school ac
 
 ## 2. What this project is about ?
 
-- I built a foundational model for **predicting sports match outcomes** using statistics.  
+- I built a model for **predicting sports match outcomes** using statistics.  
 - Apply **Poisson probability** to estimate event frequencies such as goals scored etc.  
 - Use **Excel formulas** to automate lookups and link datasets across multiple sheets.  
 - Demonstrate data cleaning, transformation, and structured modeling within Excel.
@@ -117,6 +125,11 @@ P(X=3) = (2.43)∗e−2.43!
 	​
 
 When you calculate this, you’ll get something like 0.214, meaning there’s roughly a 21.4% chance the team will score exactly 3 goals.
+Ran the same query across all goal level home and away 
+
+The result is 
+<img width="1284" height="237" alt="image" src="https://github.com/user-attachments/assets/afb4d858-f91f-4075-b8a4-f2e6fb870cda" />
+
 
 #### What I eventually realized ?
 
@@ -198,11 +211,14 @@ Most importantly, I learned that data analytics isn’t about coding alone — i
 Obinna - (binnatheanalyst)
 Data Analyst | Excel •  SQL  •  Python  •  Power BI  •  Tableau •
 
-📫 [Connect with me on LinkedIn](https://www.linkedin.com/in/joseph-obinna-2a3b811b3/)
+📫 [Connect with me on LinkedIn](https://www.linkedin.com/in/joseph-obinna-2a3b811b3/) OR
 
-I'll be modifying the data from time, Feedback from my mentor is to add a bit more conditional formatting to the texts.
+--
+📫 [Connect with me on X](https://x.com/binnatheanalyst)
 
-But ff you have any questions or suggestions as regards my solutions to this, you can send me a message on LinkedIn
+I'll be modifying the data from time.
+
+But if you have any questions or suggestions as regards my solutions to this, you can send me a message on LinkedIn
 
 Thank you for reading! Hopefully you'll read about my next case study too, right? 
 
