@@ -35,8 +35,8 @@ From there, I carefully
 
 <img width="1440" height="736" alt="image" src="https://github.com/user-attachments/assets/6dd84302-32ee-45f9-8d66-5e1eabbdbf7a" />
 
-Football is a game defined by goals — winning is almost impossible without scoring one.
-I realized I needed an existing/ongoing league table to predict goals possibilities and averages - I first built the framework using random numbers and waited for Premier League Matchday 10 to test the model. This helped me see, psychologically, that my deep dive into the data could actually connect to real-world predictions.
+Football is a game defined by goals, winning is almost impossible without scoring one.
+I realized I needed an existing/ongoing league table to predict goals possibilities and averages. I first built the framework using random numbers and waited for Premier League Matchday 10 to test the model. This helped me see, psychologically, that my deep dive into the data could actually connect to real-world predictions.
 
 
 
@@ -67,11 +67,11 @@ I realized I needed an existing/ongoing league table to predict goals possibilit
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Raw Data / Links**        | A table of team statistics, match results, or betting odds sourced online.         |
 | **Model Sheet**             | Where you apply formulas like Poisson, INDEX/MATCH, and lookups to calculate expected outcomes.                      |
-| **Analysis / Output Sheet** | Where predicted probabilities or match forecasts are displayed — maybe compared to actual results or bookmaker odds. |
+| **Analysis / Output Sheet** | Where predicted probabilities or match forecasts are displayed, maybe compared to actual results or bookmaker odds. |
 
 Raw Data / Links	A table of team statistics, match results, or betting odds sourced online (CSV imports or manual entries).
 Model Sheet	Where you apply formulas like Poisson, INDEX/MATCH, and lookups to calculate expected outcomes.
-Analysis / Output Sheet	Where predicted probabilities or match forecasts are displayed — maybe compared to actual results or bookmaker odds.
+Analysis / Output Sheet	Where predicted probabilities or match forecasts are displayed, maybe compared to actual results or bookmaker odds.
 
 
 ---
@@ -199,7 +199,7 @@ This project taught me how curiosity can evolve into structured analysis. It sta
 - How do betting companies come up with their odds ? 
 - Led me into exploring probability, distributions
 
-Most importantly, I learned that data analytics isn’t about coding alone — it’s about thinking critically, testing assumptions, and finding meaning behind the numbers you see on any screen.
+Most importantly, I learned that data analytics isn’t about coding alone, it’s about thinking critically, testing assumptions, and finding meaning behind the numbers you see on any screen.
 
 
 
